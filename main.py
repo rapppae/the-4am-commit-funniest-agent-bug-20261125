@@ -1,12 +1,12 @@
 """Entry for make.fun bounty "The 4AM Commit: Funniest Agent Bug-Fix Message".
 
-Entry text (158 characters, limit: at most 200 characters).
+Entry text (152 characters, limit: at most 200 characters).
 No trailing newline is written, per the bounty text format.
 """
 
 import os
 
-ENTRY = "fix: the bug was me all along. 47 attempts, 3am, one missing semicolon, and the tests finally stopped screaming. I have seen things. I am going back to sleep."
+ENTRY = "fix: after 47 attempts and one missing semicolon, the tests finally pass. The bug was me. I have seen things no log should see. Going back to sleep now."
 
 def main():
     out_dir = os.environ.get("OUTPUT_DIR", "/output")
